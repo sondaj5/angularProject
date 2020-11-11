@@ -1,0 +1,21 @@
+export const environment = {
+    production: false,
+    basePath: 'https://content-iis-acc.sebank.se/components/financialmarket/financialmarket-fundlist-pwa/acc/',
+    custodyTradingPwaBasePath: 'https://content-iis-acc.sebank.se/components/financialmarket/custody-trading/acc/#/',
+    infrontTokenUrlLive: 'https://api.seb.se/open/prod/fundlist/v2/infront/auth',
+    analyticsPath: 'https://assets.adobedtm.com/71e07657e0b1660036c6a3a1ee5aeea1a106b3e8/satelliteLib-1903d55effa0f2befbeb99ab2e0c73dac4304621-staging.js',
+    IBPFundLinkAPI: '/wow/api/FundLink/',
+    IBPBuyFundPath: '/wow/1000/1200/wowc1251.aspx?B2=',
+    IBPBuyFundLoginPath: '/wow/1000/1000/wow1020.aspx?RDI=',
+    IBPBuyFundLoginRedirectPath: '/WOW/wow/1000/1200/wow1260.aspx?P1=',
+    IBPSellFundPath: '/ibp/sell/',
+    IBFFundLinkAPI: '/kgb/api/FundLink/',
+    IBFBuyFundPath: '/kgb/1000/1200/kgbc1203.aspx?B2=',
+    IBFBuyFundLoginPath: '/kgb/1000/1000/kgb1020.aspx?RDI=',
+    IBFBuyFundLoginRedirectPath: '/kgb/1000/1200/kgb1260.aspx?P1=',
+    IBFSellFundPath: '/ibf/sell/',
+    ibpUri: 'https://privat.ib.seb.se/',
+    ibfUri: 'https://foretag.ib.seb.se/',
+    sebseUri: 'https://seb.se/',
+    becomeACustomerPath: '/privat/bli-kund'
+};

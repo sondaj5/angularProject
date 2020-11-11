@@ -1,0 +1,24 @@
+<div class="cell-row main-div">
+  <div class="cell  cell--w12">
+    <div class="cell-content">
+      <screenerfilter [widgetOptions]="screenerOptions"></screenerfilter>
+    </div>
+  </div>
+</div>
+
+<div class="cell-row main-div">
+  <div class="cell  cell--w12">
+    <div class="cell-content">
+      <activefilters [widgetOptions]="activeFiltersOpts"></activefilters>
+    </div>
+  </div>
+</div>
+
+<div class="cell-row main-div">
+  <div class="cell  cell--w12">
+    <div class="cell-content">
+      <quotelist [widgetOptions]="quoteListOptions" class="result-list" #quoteListElement></quotelist>
+      <div (click)="showMore()" class="showMoreButton">Show more</div>
+    </div>
+  </div>
+</div>
